@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Angular';
+  tweet = {
+    body: 'Lorem ipsum dolor sit amet...',
+    totalLikes: 46,
+    isLiked: false
+  }
 }
