@@ -1,0 +1,9 @@
+<h2><span *ngIf="authors.length">{{authors.length}} </span>{{title}}</h2>
+
+<ul>
+  <li *ngFor="let author of authors">
+    {{author.name}}
+  </li>
+</ul>
+
+<button type="button" name="button" (click)="appendAuthor()">Append</button>
