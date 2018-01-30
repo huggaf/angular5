@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { CoursesComponent } from './courses/courses.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { LikeComponent } from './like/like.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { LikeComponent } from './like/like.component';
     AppComponent,
     CoursesComponent,
     AuthorsComponent,
-    LikeComponent
+    LikeComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule
